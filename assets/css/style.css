@@ -1680,7 +1680,7 @@ a:hover {
 }
 
 .card-box-ico {
-  padding: 1rem 3rem 1rem 2.5rem;
+  padding: .5rem 1.5rem 1rem 1.5rem;
   border: 5px solid #8ebfd1;
 }
 
@@ -1691,8 +1691,10 @@ a:hover {
 
 .title-c {
   font-size: 2.0rem;
-  font-weight: 500;
-  margin-left: -40px;
+  font-weight: 400;
+  /* margin-left: -40px; */
+  padding-left: 10px;
+  padding-right: 5px;
 }
 
 @media (min-width: 768px) {
@@ -1844,6 +1846,7 @@ a:hover {
   width: 300px;
   font-weight: 700;
   text-align: right;
+  margin-top: 50px;
 }
 
 .about-img-box {
@@ -1873,20 +1876,20 @@ a:hover {
 
 @media (min-width: 576px) {
   .sinse-box {
-    padding: 1.5rem 2.5rem;
+    padding: 1rem 2rem;
     bottom: 20px;
   }
 }
 
 @media (min-width: 768px) {
   .sinse-box {
-    padding: 1.5rem 3rem;
+    padding: 1rem 2rem;
   }
 }
 
 @media (min-width: 992px) {
   .sinse-box {
-    padding: 3rem 4.5rem;
+    padding: 2rem 3.5rem;
   }
 }
 
@@ -2242,17 +2245,6 @@ footer .credits {
   color: #848484;
 }
 
-/* .features .title-vertical {
-  position: absolute;
-  letter-spacing: 0;
-  transform: rotate(-90deg);
-  top: 50px;
-  text-align: left;
-  font-size: 1.8rem;
-  width: 300px;
-  font-weight: 700;
-  text-align: right;
-} */
 @media (max-width: 1200px) {
   .features .content {
     padding-right: 0;
